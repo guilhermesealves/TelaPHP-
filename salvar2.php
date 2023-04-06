@@ -10,7 +10,7 @@ $contador = 0;
 
 while ($contador < $qtd) {
 
-    fwrite($teste, $nomes[$contador] .  "\n");
+    echo($teste, $nomes[$contador] .  "\n");
 
     $contador++;
 }
