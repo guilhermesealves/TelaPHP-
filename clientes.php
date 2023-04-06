@@ -65,7 +65,14 @@
     while(!feof($arquivo)){
         $linha = fgets($arquivo);
 
-        echo $linha . "<br>";
+        $registro = explode(",", $linha);
+
+        echo " Nome: " . $registro[0];
+        echo " Telefone:" . $registro[1];
+        echo " Cidade: " .$registro[2];
+        echo $registro[3] . " Estado: ";
+        echo $registro[4] . " <br> ";
+
 
         
     }
