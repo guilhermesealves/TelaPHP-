@@ -70,8 +70,9 @@
         echo " Nome: " . $registro[0];
         echo " Telefone:" . $registro[1];
         echo " Cidade: " .$registro[2];
-        echo $registro[3] . " Estado: ";
-        echo $registro[4] . " <br> ";
+        echo" Estado: " . $registro[3];
+        echo "Email" . $registro[4];
+        echo $registro . "<br>";    
 
 
         
